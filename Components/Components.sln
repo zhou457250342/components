@@ -3,8 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskManager", "TaskManager", "{3EF680DE-F48D-4423-AF70-421093E12EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTS.TaskManager", "TaskManager\CPTS.TaskManager\CPTS.TaskManager.csproj", "{2E5ADAAB-2774-49F0-AFA7-C94A8E623213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTS.Common", "CPTS.Common\CPTS.Common.csproj", "{95A9A7BD-A5FF-43A8-A7CB-C6162CCAEB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTS.Common.Plugin", "CPTS.Common.Plugin\CPTS.Common.Plugin.csproj", "{344B78F6-AF23-4A59-8E83-4B6A2944EE8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{025E2205-1AF9-4C87-BCB4-30333B7F5FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTS.TaskManager.Host", "TaskManager\CPTS.TaskManager.Host\CPTS.TaskManager.Host.csproj", "{57812CDD-D981-4FA9-B3E5-AB2487212B95}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5ADAAB-2774-49F0-AFA7-C94A8E623213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5ADAAB-2774-49F0-AFA7-C94A8E623213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5ADAAB-2774-49F0-AFA7-C94A8E623213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5ADAAB-2774-49F0-AFA7-C94A8E623213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A9A7BD-A5FF-43A8-A7CB-C6162CCAEB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A9A7BD-A5FF-43A8-A7CB-C6162CCAEB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A9A7BD-A5FF-43A8-A7CB-C6162CCAEB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A9A7BD-A5FF-43A8-A7CB-C6162CCAEB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344B78F6-AF23-4A59-8E83-4B6A2944EE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344B78F6-AF23-4A59-8E83-4B6A2944EE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344B78F6-AF23-4A59-8E83-4B6A2944EE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344B78F6-AF23-4A59-8E83-4B6A2944EE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57812CDD-D981-4FA9-B3E5-AB2487212B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57812CDD-D981-4FA9-B3E5-AB2487212B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57812CDD-D981-4FA9-B3E5-AB2487212B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57812CDD-D981-4FA9-B3E5-AB2487212B95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E5ADAAB-2774-49F0-AFA7-C94A8E623213} = {3EF680DE-F48D-4423-AF70-421093E12EEC}
+		{57812CDD-D981-4FA9-B3E5-AB2487212B95} = {3EF680DE-F48D-4423-AF70-421093E12EEC}
 	EndGlobalSection
 EndGlobal
